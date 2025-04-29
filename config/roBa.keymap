@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W  &kp E  &kp R               &kp T                                           &kp B    &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S  &kp D  &kp F               &kp G    &kp A                   &kp MINUS      &kp H    &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X  &kp C  &kp V               &kp B    &kp A                   &kp SEMICOLON  &kp N    &kp M  &kp COMMA  &kp DOT  &kp A
-&kp A             &kp A  &kp A  &lt_to_layer_0 6 A  &lt 2 A  &lt_to_layer_0 3 A      &kp A          &lt 1 A                             &kp A
+&kp Q             &kp W  &kp E          &kp R                        &kp T                                                    &kp Y            &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S  &kp D          &kp F                        &kp G        &kp A                       &kp MINUS       &kp H            &kp J  &kp K      &kp L    &kp ENTER
+&mt LEFT_SHIFT Z  &kp X  &kp C          &kp V                        &kp B        &kp A                       &kp SEMICOLON   &kp N            &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
+&kp ESCAPE        &kp A  &kp LC(LA(A))  &lt_to_layer_0 6 LANGUAGE_4  &lt 2 SPACE  &lt_to_layer_0 3 MINUS      &kp LANGUAGE_1  &lt 1 BACKSLASH                             &kp LS(LG(S))
             >;
 
             sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp A B>;
