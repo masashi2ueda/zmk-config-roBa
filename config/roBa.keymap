@@ -1,4 +1,4 @@
-        #include <behaviors.dtsi>
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -68,7 +68,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W  &kp E          &kp R             &kp T                                           &kp Y            &kp U  &kp I      &kp O    &kp P
-&lt 9 A           &kp S  &lt 2 D        &lt 5 F           &kp G        &kp A            &kp MINUS         &kp H            &kp J  &kp K      &lt 2 L  &lt 3 ENTER
+&lt 7 A           &kp S  &lt 2 D        &lt 5 F           &kp G        &kp A            &kp MINUS         &kp H            &kp J  &kp K      &lt 2 L  &lt 3 ENTER
 &mt LEFT_SHIFT Z  &kp X  &kp C          &kp V             &kp B        &kp LC(C)        &kp SEMICOLON     &kp N            &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
 &kp ESCAPE        &to 6  &kp LC(LA(A))  &lt 6 LANGUAGE_1  &lt 4 SPACE  &lt 1 MINUS      &lt 1 LANGUAGE_2  &lt 4 BACKSPACE                             &kp LS(LG(S))
             >;
@@ -124,9 +124,18 @@
         mymouse {
             bindings = <
 &trans     &trans     &trans        &trans  &trans                      &trans  &trans    &trans    &trans     &trans
-&trans     &kp LCTRL  &kp LEFT_ALT  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp RCLK  &kp ENTER
+&lt 7 A    &kp LCTRL  &kp LEFT_ALT  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp RCLK  &kp ENTER
 &kp LCTRL  &trans     &trans        &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans     &kp RIGHT_SHIFT
 &trans     &to 0      &trans        &trans  &trans  &trans      &trans  &trans                                 &trans
+            >;
+        };
+
+        myscrol {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
@@ -180,7 +189,7 @@
         MOUSE {
             bindings = <
 &trans               &trans     &trans        &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&lt_to_layer_0 11 A  &kp LCTRL  &kp LEFT_ALT  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &kp ENTER
+&lt_to_layer_0 12 A  &kp LCTRL  &kp LEFT_ALT  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &kp ENTER
 &trans               &trans     &trans        &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &kp RIGHT_SHIFT
 &trans               &tog 0     &trans        &trans  &trans  &trans      &trans  &trans                                &trans
             >;
