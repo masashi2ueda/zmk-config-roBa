@@ -70,7 +70,7 @@
 &kp Q             &kp W  &kp E          &kp R             &kp T                                           &kp Y            &kp U  &kp I      &kp O    &kp P
 &lt 9 A           &kp S  &lt 2 D        &lt 5 F           &kp G        &kp A            &kp MINUS         &kp H            &kp J  &kp K      &lt 2 L  &lt 3 ENTER
 &mt LEFT_SHIFT Z  &kp X  &kp C          &kp V             &kp B        &kp LC(C)        &kp SEMICOLON     &kp N            &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
-&kp ESCAPE        &to 6  &kp LC(LA(A))  &lt 6 LANGUAGE_2  &lt 4 SPACE  &lt 1 MINUS      &lt 1 LANGUAGE_1  &lt 4 BACKSPACE                             &kp LS(LG(S))
+&kp ESCAPE        &to 6  &kp LC(LA(A))  &lt 6 LANGUAGE_1  &lt 4 SPACE  &lt 1 MINUS      &lt 1 LANGUAGE_2  &lt 4 BACKSPACE                             &kp LS(LG(S))
             >;
 
             sensor-bindings = <&inc_dec_kp A B>;
