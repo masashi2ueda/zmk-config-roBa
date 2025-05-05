@@ -91,7 +91,7 @@
         symbol {
             bindings = <
 &kp EQUAL             &kp PLUS         &kp MINUS         &kp ASTERISK       &kp GRAVE                        &kp LS(TILDE)  &kp LS(AMPS)  &kp LS(CARET)  &kp LS(POUND)  &kp LS(QMARK)
-&kp LS(LEFT_BRACE)    &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT_SIGN  &trans      &trans  &kp LS(LPAR)   &kp LS(RPAR)  &kp LS(EXCL)   &kp SQT        &kp PERCENT
+&kp LS(LEFT_BRACE)    &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT_SIGN  &trans      &trans  &kp LS(LPAR)   &kp LS(RPAR)  &kp LS(SQT)    &kp SQT        &kp PERCENT
 &kp NON_US_BACKSLASH  &kp GRAVE        &kp COLON         &kp SEMICOLON      &kp DOLLAR   &trans      &trans  &kp LS(LT)     &kp LS(GT)    &kp LS(EXCL)   &kp LS(PIPE)   &kp FSLH
 &trans                &trans           &trans            &trans             &trans       &trans      &trans  &trans                                                     &trans
             >;
