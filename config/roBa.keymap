@@ -115,10 +115,10 @@
 
         myother {
             bindings = <
-&trans   &trans       &trans        &trans    &trans                                  &kp LG(UP_ARROW)  &trans   &trans     &trans          &kp RA(ENTER)
-&kp TAB  &kp LS(TAB)  &kp LEFT_ALT  &kp HOME  &kp LG(LEFT_ARROW)  &trans      &trans  &kp LG(RIGHT)     &kp END  &kp MINUS  &kp UNDERSCORE  &kp ENTER
-&trans   &trans       &trans        &trans    &trans              &trans      &trans  &trans            &trans   &trans     &trans          &kp RIGHT_SHIFT
-&trans   &trans       &trans        &trans    &trans              &trans      &trans  &trans                                                &trans
+&trans   &trans       &trans        &trans          &trans                                  &kp LG(UP_ARROW)  &trans   &trans     &trans          &kp RA(ENTER)
+&kp TAB  &kp LS(TAB)  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LG(LEFT_ARROW)  &trans      &trans  &kp LG(RIGHT)     &kp END  &kp MINUS  &kp UNDERSCORE  &kp ENTER
+&trans   &trans       &trans        &trans          &trans              &trans      &trans  &trans            &trans   &trans     &trans          &kp RIGHT_SHIFT
+&trans   &trans       &trans        &trans          &trans              &trans      &trans  &trans                                                &trans
             >;
         };
 
