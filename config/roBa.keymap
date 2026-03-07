@@ -85,16 +85,14 @@
 &kp Z       &kp X  &kp C               &kp V             &kp B        &kp RCTRL        &kp RCTRL         &kp N            &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
 &kp ESCAPE  &to 6  &kp LC(LA(DELETE))  &lt 6 LANGUAGE_1  &lt 4 SPACE  &lt 1 MINUS      &lt 1 LANGUAGE_2  &lt 4 BACKSPACE                             &kp LS(LG(S))
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp EQUAL             &kp PLUS         &kp MINUS         &kp ASTERISK       &kp GRAVE                        &kp TILDE             &kp AMPERSAND          &kp CARET        &kp HASH  &kp LS(QUESTION)
+&kp LEFT_BRACE        &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT_SIGN  &trans      &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT          &kp SQT   &kp PERCENT
+&kp NON_US_BACKSLASH  &kp GRAVE        &kp COLON         &kp SEMICOLON      &kp DOLLAR   &trans      &trans  &kp LESS_THAN         &kp GREATER_THAN       &kp EXCLAMATION  &kp PIPE  &kp SLASH
+&trans                &trans           &trans            &trans             &trans       &trans      &trans  &trans                                                                  &trans
             >;
         };
 
