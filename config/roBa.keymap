@@ -123,8 +123,8 @@
 
         MOUSE {
             bindings = <
-&trans   &trans       &trans    &trans          &trans                            &kp LG(UP_ARROW)  &trans   &trans     &trans          &kp RA(ENTER)
-&kp TAB  &kp LS(TAB)  &kp LALT  &kp LEFT_SHIFT  &kp LG(LEFT)  &trans      &trans  &kp LG(RIGHT)     &kp END  &kp MINUS  &kp UNDERSCORE  &kp RS(ENTER)
+&trans    &trans       &trans    &trans          &trans                            &kp LG(UP_ARROW)  &trans   &trans     &trans          &kp RA(ENTER)
+&lt 7 A   &kp LS(TAB)  &kp LALT  &kp LEFT_SHIFT  &kp LG(LEFT)  &trans      &trans  &kp LG(RIGHT)     &kp END  &kp MINUS  &kp UNDERSCORE  &kp RS(ENTER)
 &trans   &trans       &trans    &trans          &trans        &trans      &trans  &trans            &trans   &trans     &trans          &kp RIGHT_SHIFT
 &trans   &trans       &trans    &trans          &trans        &trans      &trans  &trans                                                &trans
             >;
