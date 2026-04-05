@@ -99,7 +99,7 @@
 &kp EQUAL             &kp PLUS         &kp MINUS         &kp ASTERISK       &kp GRAVE                        &kp TILDE             &kp AMPERSAND          &kp CARET        &kp HASH  &kp QUESTION
 &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT_SIGN  &trans      &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT          &kp SQT   &kp PERCENT
 &kp NON_US_BACKSLASH  &kp GRAVE        &kp COLON         &kp SEMICOLON      &kp DOLLAR   &trans      &trans  &kp LESS_THAN         &kp GREATER_THAN       &kp EXCLAMATION  &kp PIPE  &kp SLASH
-&trans                &trans           &trans            &trans             &trans       &trans      &trans  &trans                                                                  &trans
+&trans                &trans           &trans            &trans             &trans       &trans      &trans  &trans                                                                  &kp NUMBER_1
             >;
         };
 
@@ -108,7 +108,7 @@
 &kp N0          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                      &trans    &trans          &kp UP_ARROW  &trans          &trans
 &kp LEFT_SHIFT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0  &trans      &trans  &kp HOME  &kp LEFT_ARROW  &kp MINUS     &kp RIGHT       &kp END
 &kp LCTRL       &kp N7        &kp N8        &kp N9        &trans  &trans      &trans  &trans    &trans          &kp DOWN      &kp UNDERSCORE  &kp LEFT_SHIFT
-&trans          &trans        &trans        &trans        &trans  &trans      &trans  &trans                                                  &trans
+&trans          &trans        &trans        &trans        &trans  &trans      &trans  &trans                                                  &kp NUMBER_2
             >;
         };
 
@@ -117,7 +117,7 @@
 &bt BT_SEL 0  &trans  &trans  &trans  &trans                      &trans  &trans  &trans   &trans   &bt BT_SEL 1
 &trans        &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans   &trans   &trans
 &kp F1        &kp F2  &kp F3  &kp F4  &kp F5  &kp F6      &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans        &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &trans
+&trans        &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &kp NUMBER_3
             >;
         };
 
@@ -126,7 +126,7 @@
 &trans   &trans       &trans    &trans          &trans                            &kp LG(UP_ARROW)  &trans   &trans     &trans          &kp RA(ENTER)
 &lt 7 A  &kp LS(TAB)  &kp LALT  &kp LEFT_SHIFT  &kp LG(LEFT)  &trans      &trans  &kp LG(RIGHT)     &kp END  &kp MINUS  &kp UNDERSCORE  &kp RS(ENTER)
 &trans   &trans       &trans    &trans          &trans        &trans      &trans  &trans            &trans   &trans     &trans          &kp RIGHT_SHIFT
-&trans   &trans       &trans    &trans          &trans        &trans      &trans  &trans                                                &trans
+&trans   &trans       &trans    &trans          &trans        &trans      &trans  &trans                                                &kp NUMBER_4
             >;
         };
 
@@ -135,7 +135,7 @@
 &trans  &trans  &trans  &trans  &trans                      &trans     &trans     &kp LC(LS(V))  &kp LC(F)  &trans
 &trans  &trans  &trans  &trans  &kp A   &trans      &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LC(Z)  &kp LC(S)
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &kp LC(A)  &trans         &trans     &kp LC(SLASH)
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                          &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                          &kp N5
             >;
         };
 
@@ -144,7 +144,7 @@
 &trans     &trans     &trans    &trans  &trans                           &trans  &trans    &trans    &trans     &trans
 &lt 7 A    &kp LCTRL  &kp LALT  &trans  &trans  &trans      &trans       &trans  &mkp MB1  &mkp MB3  &mkp RCLK  &kp ENTER
 &kp RCTRL  &trans     &trans    &trans  &trans  &trans      &bootloader  &trans  &trans    &trans    &trans     &kp LEFT_SHIFT
-&trans     &to 0      &trans    &trans  &trans  &trans      &trans       &trans                                 &trans
+&trans     &to 0      &trans    &trans  &trans  &trans      &trans       &trans                                 &kp NUMBER_6
             >;
         };
 
@@ -153,7 +153,7 @@
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &kp N7
             >;
         };
 
@@ -162,7 +162,7 @@
 &trans   &trans       &trans        &trans          &trans                            &kp LG(UP)     &trans   &trans     &trans          &kp LA(ENTER)
 &kp TAB  &kp LS(TAB)  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LG(LEFT)  &trans      &trans  &kp LG(RIGHT)  &kp END  &kp MINUS  &kp UNDERSCORE  &kp LS(ENTER)
 &trans   &trans       &trans        &trans          &trans        &trans      &trans  &trans         &trans   &trans     &trans          &kp LEFT_SHIFT
-&trans   &trans       &trans        &trans          &trans        &trans      &trans  &trans                                             &trans
+&trans   &trans       &trans        &trans          &trans        &trans      &trans  &trans                                             &kp N8
             >;
         };
     };
